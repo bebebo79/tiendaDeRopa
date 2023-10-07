@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Dosis:wght@200;300&family=Jost:wght@400;700& family=Krub:wght@400;700&family=Lobster&family=Merriweather:wght@300&family=Open+Sans:ital,wght@1,300&family=Phudu&family=Roboto+Condensed&  family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html"> <!--para que dando a la imagen nos lleve a la pagina principal-->
+            <img class="header__logo" src="img/logo.png" alt="logotipo"> <!--alternativo-->
+        </a>
+
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo href="#">Tienda</a>
+        <a class="navegacion__enlace" href="#">Nosotros</a>
+    </nav>
+
+    <main class="contenedor"> <!-- Siempre contenedor que esta en globales -->
+        <h1>ReacJS</h1>
+
+        <div class="camisa">
+            
+            <div class="camisa__imagen">
+                <img src="img/3.jpg" alt="imagen del producto">
+            </div>    
+            
+            <div class="camisa__descripicion">      
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates molestias nesciunt totam omnis eaque cum, aspernatur, quas nemo et, error nostrum quo quam. Necessitatibus, at dolore delectus officiis accusamus error!</p>
+                <form class="formulario">
+                    <select class="formulario__campo">  <!--para que en una ventana se despliegue y tenga varias opciones-->
+                        
+                        <option disabled selected>---Seleccionar talla -----</option>  <!--las tallas, que se despliegan-->
+                        <option class="formulario__option">Mediana</option>  
+                        <option class="formulario__option">Grande</option>
+                        <option class="formulario__option">Chica</option> 
+                                                
+                    </select>
+
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1"> <!--input minimo de 1 cantidad para que no den negativos-->
+                    
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                    
+                </form>
+            </div>    
+        </div>
+        
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">FrontEnd Store-Todos los derechos reservados 2023</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
